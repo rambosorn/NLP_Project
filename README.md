@@ -1,2 +1,1 @@
-# AIT-Natural-Language-Processing-NLP
-AIT - Natural Language Processing (NLP)
+Natural Language Processing (NLP)_Project
