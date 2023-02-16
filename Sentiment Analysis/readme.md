@@ -1,1 +1,1 @@
-# Sentiment Analysis prject
+# Sentiment Analysis project
