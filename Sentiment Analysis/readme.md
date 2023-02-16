@@ -6,3 +6,7 @@
 5. Training a Model
 6. Evaluation
 ## Delpoy this project test in local host using flask
+
+
+
+ <img src="https://github.com/rambosorn/NLP_Project/blob/main/Sentiment%20Analysis/image/screencapture-127-0-0-1-5000-2023-02-16-23_49_58.png" alt="Alt text" title="Optional title">
