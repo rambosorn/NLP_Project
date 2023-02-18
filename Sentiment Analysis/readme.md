@@ -1,4 +1,20 @@
-# Sentiment analysis on Facebook API
+
+
+# Sentiment Analysis
+Project Inspired by ** Prof.Chaky ** and fully support from our TA ** Amanda **.
+Prof.github: https://github.com/chaklam-silpasuwanchai/Python-for-NLP
+This sentiment Analysis I have test with NLTK libray dataset and run demo with flask framework.
+- Dataset recommend by Prof.Chaky: https://nlp.stanford.edu/sentiment/treebank.html
+** Environment Septup **
+-> check out officail page: https://www.nltk.org/index.html
+# Summit Sentiment form
+<img src="https://github.com/rambosorn/NLP_Project/blob/main/Sentiment%20Analysis/image/image_2023-02-18_23-39-37.png" alt="Alt text"
+title="Optional title">
+# Output result
+<img src="https://github.com/rambosorn/NLP_Project/blob/main/Sentiment%20Analysis/image/image_2023-02-18_23-39-59.png" alt="Alt text" title="Optional title">
+
+# Future work I paln to test Sentiment analysis on Facebook API for my own facebook page
+** Environment Septup **
 1. access to the Facebook API, you need to create a Facebook Developer account
 2. access to the Graph API, you can use it to collect data for sentiment analysis
 3. Preprocess Data Python libraries like NLTK, Spacy
