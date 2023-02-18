@@ -1,11 +1,11 @@
 
 
 # Sentiment Analysis
-Project Inspired by ** Prof.Chaky ** and fully support from our TA ** Amanda **.
-Prof.github: https://github.com/chaklam-silpasuwanchai/Python-for-NLP
-This sentiment Analysis I have test with NLTK libray dataset and run demo with flask framework.
+Project Inspired by **Prof.Chaky** and fully support from our TA **Amanda**.
+- Prof.github: https://github.com/chaklam-silpasuwanchai/Python-for-NLP
+### This sentiment Analysis I have test with NLTK libray dataset and run demo with flask framework.
 - Dataset recommend by Prof.Chaky: https://nlp.stanford.edu/sentiment/treebank.html
-** Environment Septup **
+**Environment Septup**
 -> check out officail page: https://www.nltk.org/index.html
 # Summit Sentiment form
 <img src="https://github.com/rambosorn/NLP_Project/blob/main/Sentiment%20Analysis/image/image_2023-02-18_23-39-37.png" alt="Alt text"
