@@ -12,6 +12,8 @@ title="Optional title">
 #### Output result
 <img src="https://github.com/rambosorn/NLP_Project/blob/main/Sentiment%20Analysis/image/image_2023-02-18_23-39-59.png" alt="Alt text" title="Optional title">
 
+    Note: In sentiment analysis, the "neutral" score typically indicates that the text being analyzed is neither positive nor negative, but rather, it is neutral or without sentiment. The "compound" score is a single score that represents the overall sentiment of the text, calculated by taking the sum of all the lexicon ratings which have been normalized between -1 (most extreme negative) and +1 (most extreme positive).
+
 ## Future work I paln to test Sentiment analysis on Facebook API for my own facebook page
 ** Environment Septup **
 1. access to the Facebook API, you need to create a Facebook Developer account
