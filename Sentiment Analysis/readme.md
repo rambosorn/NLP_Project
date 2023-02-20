@@ -3,14 +3,14 @@
 # Sentiment Analysis
 Project Inspired by **Prof.Chaky** and fully support from our TA **Amanda**.
 - Prof.github: https://github.com/chaklam-silpasuwanchai/Python-for-NLP
-### This sentiment Analysis test with NLTK libray dataset and run on localhost with flask.
+### This sentiment Analysis test with NLTK library dataset and run on localhost with flask.
 1. Dataset recommend by Prof.Chaky: https://nlp.stanford.edu/sentiment/treebank.html
 2. Check out officail page for ntlk data library: https://www.nltk.org/index.html
-#### Sentiment summit form
-<img src="https://github.com/rambosorn/NLP_Project/blob/main/Sentiment%20Analysis/image/image_2023-02-18_23-39-37.png" alt="Alt text"
+#### Sentiment submit form
+<img src="https://github.com/rambosorn/NLP_Project/blob/main/Sentiment%20Analysis/image/form.png" alt="Alt text"
 title="Optional title">
 #### Output result
-<img src="https://github.com/rambosorn/NLP_Project/blob/main/Sentiment%20Analysis/image/image_2023-02-18_23-39-59.png" alt="Alt text" title="Optional title">
+<img src="https://github.com/rambosorn/NLP_Project/blob/main/Sentiment%20Analysis/image/result.png" alt="Alt text" title="Optional title">
 
 ##### Note: 
 - In sentiment analysis, the "neutral" score typically indicates that the text being analyzed is neither positive nor negative, but rather, it is neutral or without sentiment. The "compound" score is a single score that represents the overall sentiment of the text, calculated by taking the sum of all the lexicon ratings which have been normalized between -1 (most extreme negative) and +1 (most extreme positive).
@@ -25,4 +25,4 @@ title="Optional title">
 5. Training a Model
 6. Evaluation
 ### Delpoy this project test in local host using flask
- <img src="https://github.com/rambosorn/NLP_Project/blob/main/Sentiment%20Analysis/image/screencapture-127-0-0-1-5000-2023-02-16-23_49_58.png" alt="Alt text" title="Optional title">
+ <img src="https://github.com/rambosorn/NLP_Project/blob/main/Sentiment%20Analysis/image/fb-api.png" alt="Alt text" title="Optional title">
