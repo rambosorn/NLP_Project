@@ -12,5 +12,5 @@ _I have tried with code parrot by hugging face build on top of GPT-2. The Code P
 ## Use OpenAI's GPT-3 API
 1. Sign up for an API key on the OpenAI website: https://beta.openai.com/signup/
 2.
-<img src="https://github.com/rambosorn/NLP_Project/blob/main/Code%20Autocompletion/image/codeparrot.png" alt="Alt text" title="Optional title">
+<img src="https://github.com/rambosorn/NLP_Project/blob/main/Code%20Autocompletion/image/image_2023-02-26_02-45-22.png" alt="Alt text" title="Optional title">
 
