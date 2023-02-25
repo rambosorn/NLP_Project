@@ -11,6 +11,7 @@ _I have tried with code parrot by hugging face build on top of GPT-2. The Code P
 
 ## Use OpenAI's GPT-3 API
 1. Sign up for an API key on the OpenAI website: https://beta.openai.com/signup/
-2.
 <img src="https://github.com/rambosorn/NLP_Project/blob/main/Code%20Autocompletion/image/image_2023-02-26_02-45-22.png" alt="Alt text" title="Optional title">
+
+_The choice between Code Parrot and GPT-3 ultimately depends on the specific needs and use case of the project. For tasks that require high accuracy in code autocompletion, Code Parrot may be the better choice, while GPT-3 may be more suitable for tasks that require a more general-purpose language model._
 
