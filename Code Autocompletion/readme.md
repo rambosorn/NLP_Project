@@ -2,7 +2,7 @@
 Project Inspired by **Prof.Chaky** and fully support from our TA **Amanda**.
 - Prof.github: https://github.com/chaklam-silpasuwanchai/Python-for-NLP
 ### Code Parrot
-Learn here: [https://nlp.stanford.edu/sentiment/treebank.html](https://huggingface.co/datasets/codeparrot/github-jupyter-code-to-text)
+Learn more: [https://nlp.stanford.edu/sentiment/treebank.html](https://huggingface.co/datasets/codeparrot/github-jupyter-code-to-text)
 
 ## Suggestion result
 <img src="https://github.com/rambosorn/NLP_Project/blob/main/Sentiment%20Analysis/image/form.png" alt="Alt text"
@@ -12,8 +12,8 @@ I have tried with code parrot by hugging face build on top of GPT-2. The Code Pa
 
 
 #### result
-<img src="https://github.com/rambosorn/NLP_Project/blob/main/Sentiment%20Analysis/image/form.png" alt="Alt text"
-title="Optional title">
+<img src="https://github.com/rambosorn/NLP_Project/blob/main/Sentiment%20Analysis/image/result.png" alt="Alt text" title="Optional title">
+
 #### 
 <img src="https://github.com/rambosorn/NLP_Project/blob/main/Sentiment%20Analysis/image/result.png" alt="Alt text" title="Optional title">
 
