@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Code Autocomplete</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Get suggestions button click event handler
+            $("#submit-btn").click(function() {
+                var input_code = $("#input-code").val();
+                var data = JSON.stringify({'code': input_code});
+                $.ajax({
+                    type: "POST",
+                    url: "/autocomplete",
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    data: data,
+                    success: function(response) {
+                        var suggestions = response.suggestions;
+                        $("#suggestions").empty();
+                        for (var i = 0; i < suggestions.length; i++) {
+                            var li = $("<li>").text(suggestions[i]);
+                            $("#suggestions").append(li);
+                        }
+                        $("#suggestions").addClass("show");
+                        $("#copy-btn").prop("disabled", false);
+                        $("#clear-btn").prop("disabled", false);
+                    },
+                    error: function(xhr, status, error) {
+                        alert("An error occurred while getting suggestions.");
+                    }
+                });
+            });
+
+            // Copy button click event handler
+            $("#copy-btn").click(function() {
+                var suggestions = $("#suggestions").text();
+                navigator.clipboard.writeText(suggestions);
+                alert("Suggestions copied to clipboard.");
+            });
+
+            // Clear button click event handler
+            $("#clear-btn").click(function() {
+                $("#suggestions").empty();
+                $("#suggestions").removeClass("show");
+                $("#copy-btn").prop("disabled", true);
+                $("#clear-btn").prop("disabled", true);
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Code Autocomplete</h1>
+    <p>Enter your code below and we'll suggest the next few lines for you:</p>
+    <textarea id="input-code" rows="10" cols="80"></textarea>
+    <br>
+    <button id="submit-btn">Get suggestions</button>
+    <br>
+    <div id="suggestions-container">
+        <p>Suggestions:</p>
+        <ul id="suggestions"></ul>
+        <button id="copy-btn" disabled><i class="far fa-copy"></i> Copy</button>
+        <button id="clear-btn" disabled><i class="far fa-trash-alt"></i> Clear</button>
+    </div>
+
+
+
+    
+    <footer>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+        <div class="footer-info">
+          <p>&copy; 2023 - Code Autocompletion and Suggestion</p>
+        </div>
+      </footer>
+</body>
+</html>
