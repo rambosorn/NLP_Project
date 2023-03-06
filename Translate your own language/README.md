@@ -2,8 +2,8 @@
 Project Inspired by **Prof.Chaky** and fully support from our TA **Amanda**.
 - Prof.github: https://github.com/chaklam-silpasuwanchai/Python-for-NLP
 
-### This Machine Translation project going to run test in localhost with flask.
-### Dataset for Khmer language I used the protain dataset: Helsinki-NLP/opus-mt-km-en
+- This Machine Translation project going to run test in localhost with flask.
+- Dataset for Khmer language I used the protain dataset: Helsinki-NLP/opus-mt-km-en
 
 ### Environment Setup
 1. Install the required libraries: 
