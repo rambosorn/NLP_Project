@@ -18,10 +18,10 @@ Project Inspired by **Prof.Chaky** and fully support from our TA **Amanda**.
 4. Create Flask project to run on your local machine
 
 
-#### Sentiment submit form
-<img src="https://github.com/rambosorn/NLP_Project/blob/main/Sentiment%20Analysis/image/form.png" alt="Alt text"
+#### result image here
+<img src="#" alt="Alt text"
 title="Optional title">
-#### Output result
-<img src="https://github.com/rambosorn/NLP_Project/blob/main/Sentiment%20Analysis/image/result.png" alt="Alt text" title="Optional title">
+#### image 01
+<img src="#" title="Optional title">
 
 
