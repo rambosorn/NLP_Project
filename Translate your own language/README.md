@@ -15,7 +15,7 @@ Project Inspired by **Prof.Chaky** and fully support from our TA **Amanda**.
 - model_name = "Helsinki-NLP/opus-mt-km-en" # pre-trained model for Khmer-English translation
 - tokenizer = AutoTokenizer.from_pretrained(model_name)
 - model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
-4. Create Flask to run your local machine
+4. Create Flask project to run on your local machine
 
 
 #### Sentiment submit form
