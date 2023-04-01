@@ -8,7 +8,7 @@ Project Inspired by **Prof.Chaky** and fully support from our TA **Amanda**.
 #### Input result
 <img src="https://github.com/rambosorn/NLP_Project/blob/main/Translate%20your%20own%20language/image/input.png" alt="Alt text"
 title="Optional title">
-#### Story result
+#### Output result
 <img src="https://github.com/rambosorn/NLP_Project/blob/main/Translate%20your%20own%20language/image/result.png" title="Optional title">
 
 - GPT-3 has not been specifically trained for Khmer language machine translation, so its performance in that domain would likely be limited. The Khmer language has unique characteristics that may require specific training data and language models to accurately translate text.
