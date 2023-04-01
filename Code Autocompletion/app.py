@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify, render_template
 import openai
 import os
 
-openai.api_key = "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"
+openai.api_key = " "
 
 app = Flask(__name__, static_url_path='/static')
 
