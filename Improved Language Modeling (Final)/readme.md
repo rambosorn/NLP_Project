@@ -10,10 +10,10 @@ Project Inspired by **Prof.Chaky** and fully support from our TA **Amanda**.
 6. Implement story generation logic: Implement the story generation logic in the Flask app's route function for the story generation page. Use the pre-trained language model to generate a story based on the user's input.
 7. Deploy the app: Deploy the Flask app to a web server or run it locally.
 #### Input result
-<img src="https://github.com/rambosorn/NLP_Project/blob/main/Improved%20Language%20Modeling/Story%20Generator/image/input.png" alt="Alt text"
+<img src="https://github.com/rambosorn/NLP_Project/blob/main/Improved%20Language%20Modeling%20(Final)/Image/input.png" alt="Alt text"
 title="Optional title">
 #### Story result
-<img src="https://github.com/rambosorn/NLP_Project/blob/main/Improved%20Language%20Modeling/Story%20Generator/image/result.png" title="Optional title">
+<img src="https://github.com/rambosorn/NLP_Project/blob/main/Improved%20Language%20Modeling%20(Final)/Image/result.png" title="Optional title">
 
 However, there are also some limitations to this project. Here are some of the limitations:
 - API limits: To use the GPT-3 model, you will need to have an API key, which comes with certain usage limits. You may not be able to generate an unlimited number of stories without hitting these limits.
