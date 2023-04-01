@@ -2,9 +2,16 @@
 Project Inspired by **Prof.Chaky** and fully support from our TA **Amanda**.
 - Prof.github: https://github.com/chaklam-silpasuwanchai/Python-for-NLP
 
+## Preparation
+1. Collect a large corpus of Khmer language data
+2. Clean and preprocess the data
+3. Build and train a machine translation model
+4. Evaluate and refine your model
+5. Deploy and integrate your model
+
 ## Implement this project I have tried with several pre-tain models
-1. OpenAI GPT-3 language model
-2. Hugging face Pre-train model 
+- OpenAI GPT-3 language model
+- Hugging face Pre-train model 
 #### Input result
 <img src="https://github.com/rambosorn/NLP_Project/blob/main/Translate%20your%20own%20language/image/input.png" alt="Alt text"
 title="Optional title">
