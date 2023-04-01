@@ -1,4 +1,4 @@
-# Story Generator using Tranformer
+# Machine Translation KH-EN
 Project Inspired by **Prof.Chaky** and fully support from our TA **Amanda**.
 - Prof.github: https://github.com/chaklam-silpasuwanchai/Python-for-NLP
 
