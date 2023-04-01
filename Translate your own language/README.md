@@ -2,7 +2,7 @@
 Project Inspired by **Prof.Chaky** and fully support from our TA **Amanda**.
 - Prof.github: https://github.com/chaklam-silpasuwanchai/Python-for-NLP
 
-# Implement this project I have tried with several pre-tain model 
+## Implement this project I have tried with several pre-tain model 
 1. OpenAI GPT-3 language model
 2. Hugging face Pre-train model 
 #### Input result
